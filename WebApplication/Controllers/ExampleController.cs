@@ -13,5 +13,11 @@ namespace WebApplication.Controllers
         {
             return Ok(model);
         }
+        
+        [HttpPut("v2")]
+        public ActionResult DoABarrelRollV2([FromBody] ExampleModel model)
+        {
+            return Ok(model);
+        }
     }
 }

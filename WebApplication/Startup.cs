@@ -19,7 +19,7 @@ namespace WebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddFluentValidation().AddValidatorsFromAssemblyContaining(typeof(Startup));
-            services.AddControllers();
+            services.AddControllers().AddHybridModelBinder();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

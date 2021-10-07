@@ -2,7 +2,7 @@
 {
     public class ExampleModel
     {
-        public int[] Test { get; set; }
+        // public int[] Test { get; set; }
         public NestedModel Model { get; set; }
     }
 }
